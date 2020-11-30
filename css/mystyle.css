@@ -1,0 +1,51 @@
+
+.bg{
+    background-image: url(../img/bg.jpg);
+    min-height:100vh;
+    background-size:cover;
+    opacity: 0.9;
+    
+}
+.row{
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 35px;
+    padding:20px;
+    
+}
+.row > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+.grid-container{
+    padding: 1% 25% 0% 25%;
+
+}  
+.heading{
+    font-family: 'Roboto', sans-serif;
+    padding-left:19%;
+    padding-top:10%;
+    padding-right:19%;
+    text-decoration: underline blue;
+    
+}
+.col-sm:hover{
+    box-shadow: 5px 7px 9px -3px rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    opacity: 0.9;
+    background: linear-gradient(to right, #373b44, #4286f4);
+    
+    color: white;
+    
+}
+.service-name{
+    font-family: 'Montserrat', sans-serif;
+
+}
+.hrr{
+    margin:-8px;
+
+}
+
